@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1581544291234-31340be4b1b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+}
+
+h2{
+    border: 2px solid blue;
+    background-color: rgb(255, 145, 2);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 369px;
+    height: 35px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#texto_digitado{
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+#contagemBotao{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 145, 2);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+#letrasDiv, #palavrasDiv{
+    margin-top: 5px;
+    border: 2px solid blue;
+    padding: 5px;
+    width: 366px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#reset{
+    margin-top: 5px;
+    border: 2px solid blue;
+    background-color: rgb(255, 145, 2);
+    padding: 10px;
+    
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
